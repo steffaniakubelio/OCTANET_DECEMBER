@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Enclave Furniture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+<div class="circle"></div>
+<header>
+<a href="#" class="logo"><img src="logo.png" alt="logo"></a>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Categories</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</header>
+<div class="content">
+<div class="textbox">
+<h2>Elevate Your Space with<span> Elegance Enclave </span></h2>
+<p>Discover a curated collection of timeless pieces designed to transform your space into a haven of style and luxury. Explore our exquisite range of furniture crafted with precision and passion, each piece telling a story of elegance. From contemporary chic to classic allure, find the perfect furnishings to elevate your home at Elegance Enclave Furniture.</p>
+<a href="#">Learn More</a>
+</div>
+<div class="imgBox">
+<img src="img1.png" alt="chairimg" class="chair">
+</div>
+</div>
+<ul class="t">
+<li><img src="img1.png" alt="img" onclick="imgSlider('img1.png')"></li>
+<li><img src="img2.png" alt="img" onclick="imgSlider('img2.png')"></li>
+<li><img src="img3.png" alt="img" onclick="imgSlider('img3.png')"></li>
+</ul>
+<ul class="social">
+<li><a href="#"><img src="facebook.png" alt="fb"></a></li>
+<li><a href="#"><img src="instagram.png" alt="ig"></a></li>
+<li><a href="#"><img src="twitter.png" alt="twitter"></a></li>
+</ul>
+</section>
+<script type="text/javascript">
+function imgSlider(anything){
+    document.querySelector('.chair').src=anything;
+}
+/*function changeCircleColor(color){
+    const circle=document.querySelector('.circle');
+    circle.style.background=color;
+}*/
+</script>
+</body>
+</html>
